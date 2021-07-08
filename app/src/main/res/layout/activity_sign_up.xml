@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sign_up"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sign_up"
+    android:fitsSystemWindows="true"
+    >
+
+    <TextView
+        android:id="@+id/news"
+        android:layout_width="45dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/news"
+        android:textAppearance="@style/news" />
+
+    <RelativeLayout
+        android:id="@+id/autarization"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="137dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/background_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            app:shapeAppearanceOverlay="@style/CornersSignUp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/field_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="46dp"
+            android:background="@drawable/field_2"
+            >
+
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="-2dp"
+                android:text="@string/nickname"
+                android:textAppearance="@style/nickname"
+                android:gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edit_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/roboto"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12 "/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/field_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="139dp"
+            android:background="@drawable/field_4"
+            >
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="-2dp"
+                android:text="@string/password"
+                android:textAppearance="@style/password"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/roboto"
+                />
+
+            <EditText
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/roboto"
+                android:inputType="textPassword"
+                android:textAppearance="@style/some_id"
+                android:maxLength="9"
+                />
+
+            <RelativeLayout
+                android:id="@+id/eye_"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true"
+                >
+                <CheckBox
+                    android:id="@+id/show_password"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:button="@drawable/checkbox_selector"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="fill_parent"
+            android:layout_height="53dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/sign_up"
+            android:text="@string/sign_in"
+            android:fontFamily="@font/roboto"
+            android:textAppearance="@style/sign_in"
+            />
+
+            <TextView
+                android:id="@+id/some_id1"
+                android:layout_width="fill_parent"
+                android:layout_height="21dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="325dp"
+                android:text="@string/some_id1"
+                android:textAppearance="@style/some_id1"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/roboto"
+                />
+
+        <Button
+            android:id="@+id/some_id2"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginEnd="130dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_vertical"
+            android:text="@string/some_id2"
+            android:textAppearance="@style/some_id2"
+            android:background="#0000"
+            />
+
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="fill_parent"
+            android:layout_height="17dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="365dp"
+            android:text="@string/cookie"
+            android:textAppearance="@style/cookie"
+            android:gravity="top"
+            android:fontFamily="@font/roboto"
+            android:background="#0000"
+            />
+    </RelativeLayout>
+</RelativeLayout>

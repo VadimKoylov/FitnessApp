@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="news">Login</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="some_id1">Регистрируясь вы принимаете наши условия:</string>
+    <string name="some_id2"><u>политику использования данных</u></string>
+    <string name="cookie"><u>политику в отношении файлов cookie</u></string>
+    <string name="title">News</string>
+    <string name="like_count">28</string>
+    <string name="comment_count">12</string>
+    <string name="user">User</string>
+    <string name="training">Training</string>
+    <string name="map">Map</string>
+
+</resources>
